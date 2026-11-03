@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mobaSHOPOS</string>
+
+    <!-- 共通 -->
+    <string name="back">戻る</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+
+    <!-- 端末登録 -->
+    <string name="setup_title">端末の登録</string>
+    <string name="setup_description">管理画面で発行した登録コード（10分間有効）を入力してください。</string>
+    <string name="setup_server_url">サーバーURL</string>
+    <string name="setup_code">登録コード（例 K7MP-2QXD）</string>
+    <string name="setup_device_name">端末名（例 ホール1）</string>
+    <string name="setup_submit">登録する</string>
+
+    <!-- ログイン -->
+    <string name="login_title">店員ログイン</string>
+    <string name="login_select_staff">ログインする店員を選んでください</string>
+    <string name="login_pin">PIN（数字4〜8桁）</string>
+    <string name="login_submit">ログイン</string>
+    <string name="login_no_staff">店員が登録されていません。管理画面で登録してください。</string>
+    <string name="login_unenroll">この端末の登録を解除</string>
+    <string name="login_unenroll_confirm">この端末の登録を解除しますか？再び使うには新しい登録コードが必要です。</string>
+    <string name="role_manager">マネージャー</string>
+    <string name="role_staff">スタッフ</string>
+
+    <!-- メイン -->
+    <string name="home_title">メイン</string>
+    <string name="home_store">店舗：%1$s</string>
+    <string name="home_staff">担当：%1$s</string>
+    <string name="home_master_version">マスター版数：%1$d</string>
+    <string name="home_master_none">マスター未取得</string>
+    <string name="home_order">注文を受ける</string>
+    <string name="home_checkout">会計する</string>
+    <string name="home_sync">マスターを更新</string>
+    <string name="home_sync_done">マスターを更新しました（版数 %1$d）</string>
+    <string name="home_sync_unchanged">マスターは最新です</string>
+    <string name="home_logout">ログアウト</string>
+
+    <!-- テーブル選択 -->
+    <string name="tables_title_order">テーブルを選択（注文）</string>
+    <string name="tables_title_checkout">テーブルを選択（会計）</string>
+    <string name="tables_empty">テーブルがありません。マスターを更新してください。</string>
+
+    <!-- 注文 -->
+    <string name="order_title">注文：テーブル %1$s</string>
+    <string name="order_confirm_title">注文の確認：テーブル %1$s</string>
+    <string name="order_summary">%1$d 点　%2$s</string>
+    <string name="order_to_confirm">確認へ</string>
+    <string name="order_send">送信する</string>
+    <string name="order_edit">修正する</string>
+    <string name="order_sent_title">送信しました</string>
+    <string name="order_sent_message">テーブル %1$s の伝票合計：%2$s（%3$d 点）</string>
+    <string name="order_preview_note">表示の金額は目安です。確定額はサーバーで計算されます。</string>
+    <string name="order_no_items">このカテゴリーにメニューはありません</string>
+    <string name="order_line">%1$s × %2$d</string>
+
+    <!-- 会計 -->
+    <string name="checkout_title">会計：テーブル %1$s</string>
+    <string name="checkout_no_open_check">このテーブルに未会計の伝票はありません。</string>
+    <string name="checkout_total">合計 %1$s（%2$d 点）</string>
+    <string name="checkout_tendered">お預かり金額</string>
+    <string name="checkout_exact">ちょうど</string>
+    <string name="checkout_change_preview">お釣り（目安）：%1$s</string>
+    <string name="checkout_pay">会計を確定</string>
+    <string name="checkout_invalid_amount">金額を正しく入力してください</string>
+    <string name="checkout_done_title">会計が完了しました</string>
+    <string name="checkout_done_message">ご請求 %1$s ／ お預かり %2$s ／ お釣り %3$s</string>
+    <string name="checkout_reload">伝票を再表示</string>
+</resources>

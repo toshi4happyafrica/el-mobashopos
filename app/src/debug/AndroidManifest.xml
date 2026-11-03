@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- デバッグビルドのみ：ローカル開発サーバー（http://10.0.2.2:8787 など）への HTTP 接続を許可 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:usesCleartextTraffic="true" />
+</manifest>
